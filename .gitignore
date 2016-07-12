@@ -50,8 +50,11 @@ Temporary Items
 .gitattributes
 Debug
 ipch
-Release_LIB
 .vs
+*.tlog
 *.bak
 *.sdf
+*.log
+*.pch
+*.pdb
 ReadMe.doc
