@@ -1,4 +1,4 @@
-###C Library fuer die Anbindung an den fiskaltrust dienst
+#C Library fuer die Anbindung an den fiskaltrust dienst
 
 ##Version 0.2
 für fiskaltrustdienst vom 30.6.2016
@@ -20,33 +20,32 @@ fiskaltrust/demo und fiskaltrust/interface
 
 
 ##Testsystem
-PC mit Windows 7 prof. 64 Bit
-Visual C 10.0 (32 Bit)
-Visual Studio Express 2015 für Windows Desktop
-Ingres 10.0 (32 Bit)
+- PC mit Windows 7 prof. 64 Bit
+- Visual C 10.0 (32 Bit)
+- Visual Studio Express 2015 für Windows Desktop
+- Ingres 10.0 (32 Bit)
 
 ##Veröffentliche Dateien
-deplib.cpp	C/C++ Source
-deplip.h	Headerdatei
+|deplib.cpp | C/C++ Source |
+|deplip.h | Headerdatei |
+|deplib_test.sln | VS2015 Solution |
+|deplib_test.vcxproj | VS2015 VC++ Project |
+|deplib_test.vcxproj.filters | VS2015 VC++ Project | 
+|deplib_test.vcxproj.user | VS2015 VC++ Project |
 
-deplib_test.sln                 VS2015 Solution
-deplib_test.vcxproj	        VS2015 VC++ Project
-deplib_test.vcxproj.filters	VS2015 VC++ Project 
-deplib_test.vcxproj.user	VS2015 VC++ Project 
+|Release_LIB/... | erstellte C-Library |
 
-Release_LIB/...			erstellte C-Library
+|fiskaltrust.interface.wsdl.c | erstellt mit ws_erstellen.bat |
+|fiskaltrust.interface.wsdl.h | erstellt mit ws_erstellen.bat |
 
-fiskaltrust.interface.wsdl.c	erstellt mit ws_erstellen.bat
-fiskaltrust.interface.wsdl.h	erstellt mit ws_erstellen.bat
+|stdafx.cpp | übernommen von fiskaltrust |
+|stdfx.h | übernommen von fiskaltrust |
+|targetver.h | übernommen von fiskaltrust |
+|tools/… | übernommen von fiskaltrust |
 
-stdafx.cpp 	übernommen von fiskaltrust
-stdfx.h		übernommen von fiskaltrust
-targetver.h	übernommen von fiskaltrust
-tools/…		übernommen von fiskaltrust
-
-test_lib.c			C-Source zum Testen der deplib
-test_lib.exe	
-test_lib_make.bat		Batch zum Erstellen des Testprogramms
+|test_lib.c | C-Source zum Testen der deplib |
+|test_lib.exe | Testprogramm |
+|test_lib_make.bat | Batch zum Erstellen des Testprogramms |
 
 ##Verwenden der Testumgebung
 1.	Downloaden des Gesamten Projekts von Github in z.B.: \deplib
