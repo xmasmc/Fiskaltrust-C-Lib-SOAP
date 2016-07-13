@@ -52,8 +52,11 @@ fiskaltrust/demo und fiskaltrust/interface
 
 ##Verwenden der Testumgebung
 1. Downloaden des Gesamten Projekts von Github in z.B.: \deplib
-2. Starten des Fiskaltrust Dienstes:  \deplib\tools\fiskaltrust-net40\test.cmd
-3. Visual Studio 2015 Projekt öffnen:  \deplib\deplib_test.sln
+2. Starten des Fiskaltrust Dienstes:  
+  - \deplib\tools\fiskaltrust-net40\test.cmd
+  - Sollte es Probleme beim Starten des Dienstes geben, dann das Verzeichnis C:\ProgramData\fiskaltrust löschen
+3. Visual Studio 2015 Projekt öffnen:  
+  - \deplib\deplib_test.sln
 4. Das Projekt kann mit 3 verschiedenen Konfigurationen erstellt werden (muss für x86 compiliert werden):
   - Release_LIB......es wir die Library Release_LIB/deplib_test1.lib erstellt
   - Debug.......zum Testen, die Funktion main() wird mit compiliert
