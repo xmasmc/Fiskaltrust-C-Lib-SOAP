@@ -2,6 +2,12 @@
 
 ###Version 0.2 für fiskaltrustdienst vom 30.6.2016
 
+##Offene Punkte
+- **DEP auslesen funktioniert nur bis zu einer Länge von 65536**
+- Summenzähler auslesen
+- Monatsbeleg/Jahresbeleg
+- Statusmeldungen auslesen
+
 ##Projektidee
 - Einfach C Anbindung an den Fiskaltrustdienst
 - Erstellen einer möglichst einfach verwendbaren C-Schnittstelle für die Fiskaltrust SOAP Schnittstelle
@@ -55,12 +61,6 @@ fiskaltrust/demo und fiskaltrust/interface
 5. Testprogramm test_lib
   - Übersetzen des Programms test_lib: Im Explorer doppelklicken auf \deplib\test_lib_make.bat
   - Starten des Programms: Im Explorer doppelklicken auf \deplib\test_lib.exe
-
-##Offene Punkte
-- DEP auslesen funktioniert nur bis zu einer Länge von 65536
-- Summenzähler auslesen
-- Monatsbeleg/Jahresbeleg
-- Statusmeldungen auslesen
 
 ##Datenübergabe
 In diesen Beispielen werden nur Rechnungssummen und keine einzelne Artikel an die Schnittstelle übergeben. Grundlage für diese Vorgehensweise:
