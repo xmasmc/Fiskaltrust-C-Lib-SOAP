@@ -27,22 +27,19 @@ fiskaltrust/demo und fiskaltrust/interface
 
 ##Veröffentliche Dateien
 |deplib.cpp | C/C++ Source |
+| --- | --- |
 |deplip.h | Headerdatei |
 |deplib_test.sln | VS2015 Solution |
 |deplib_test.vcxproj | VS2015 VC++ Project |
 |deplib_test.vcxproj.filters | VS2015 VC++ Project | 
 |deplib_test.vcxproj.user | VS2015 VC++ Project |
-
 |Release_LIB/... | erstellte C-Library |
-
 |fiskaltrust.interface.wsdl.c | erstellt mit ws_erstellen.bat |
 |fiskaltrust.interface.wsdl.h | erstellt mit ws_erstellen.bat |
-
 |stdafx.cpp | übernommen von fiskaltrust |
 |stdfx.h | übernommen von fiskaltrust |
 |targetver.h | übernommen von fiskaltrust |
 |tools/… | übernommen von fiskaltrust |
-
 |test_lib.c | C-Source zum Testen der deplib |
 |test_lib.exe | Testprogramm |
 |test_lib_make.bat | Batch zum Erstellen des Testprogramms |
