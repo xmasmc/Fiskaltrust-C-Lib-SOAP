@@ -46,25 +46,21 @@ fiskaltrust/demo und fiskaltrust/interface
 
 ##Verwenden der Testumgebung
 1. Downloaden des Gesamten Projekts von Github in z.B.: \deplib
-2. Starten des Fiskaltrust Dienstes:
-  \deplib\tools\fiskaltrust-net40\test.cmd
-3. Visual Studio 2015 Projekt öffnen
-  \deplib\deplib_test.sln
+2. Starten des Fiskaltrust Dienstes:  \deplib\tools\fiskaltrust-net40\test.cmd
+3. Visual Studio 2015 Projekt öffnen:  \deplib\deplib_test.sln
 4. Das Projekt kann mit 3 verschiedenen Konfigurationen erstellt werden:
-  • Release_LIB…es wir die Library Release_LIB/deplib_test1.lib erstellt
-  • Debug………...zum Testen, die Funktion main() wird mit compiliert
-  • Release.……...zum Testen, die Funktion main() wird mit compiliert
+  - Release_LIB......es wir die Library Release_LIB/deplib_test1.lib erstellt
+  - Debug.......zum Testen, die Funktion main() wird mit compiliert
+  - Release.....zum Testen, die Funktion main() wird mit compiliert
 5. Testprogramm test_lib
-  • Übersetzen des Programms test_lib:
-    Im Explorer doppelklicken auf \deplib\test_lib_make.bat
-  • Starten des Programms:
-    Im Explorer doppelklicken auf \deplib\test_lib.exe
+  - Übersetzen des Programms test_lib: Im Explorer doppelklicken auf \deplib\test_lib_make.bat
+  - Starten des Programms: Im Explorer doppelklicken auf \deplib\test_lib.exe
 
 ##Offene Punkte
-  • DEP auslesen funktioniert nur bis zu einer Länge von 65536
-  • Summenzähler auslesen
-  • Monatsbeleg/Jahresbeleg
-  • Statusmeldungen auslesen
+- DEP auslesen funktioniert nur bis zu einer Länge von 65536
+- Summenzähler auslesen
+- Monatsbeleg/Jahresbeleg
+- Statusmeldungen auslesen
 
 ##Datenübergabe
 In diesen Beispielen werden nur Rechnungssummen und keine einzelne Artikel an die Schnittstelle übergeben. Grundlage für diese Vorgehensweise:
