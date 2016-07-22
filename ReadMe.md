@@ -7,9 +7,10 @@
 - Summenzähler auslesen
 - Monatsbeleg/Jahresbeleg
 - Statusmeldungen auslesen
+- 21.7.2016 Nachrichtenspeicher heap läuft nach ca. 54 Signierungen über -> heap vor jeder Signierung löschen und neu anfordern, dann ist das Problem gelöst.
 
 ##Projektidee
-- Einfach C Anbindung an den Fiskaltrustdienst
+- Einfache C Anbindung an den Fiskaltrustdienst
 - Erstellen einer möglichst einfach verwendbaren C-Schnittstelle für die Fiskaltrust SOAP Schnittstelle
 - Einfaches C-Testprogramm zum Testen der erstellten Library
 
